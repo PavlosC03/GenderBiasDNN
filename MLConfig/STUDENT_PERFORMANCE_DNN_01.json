@@ -1,0 +1,17 @@
+{
+    "Experiment.BaseName": "STUDENT_PERFORMANCE_DNN",
+    "Experiment.Number": 1,
+    "ModelName": "STUDENT_PERFORMANCE_DNN",
+    "DNN.InputFeatures": 6,
+    "DNN.LayerNeurons": [
+        24,
+        32,
+        32,
+        1
+    ],
+    "DNN.Classes": 1,
+    "DNN.DropoutRate": 0.1,
+    "Training.MaxEpoch": 300,
+    "Training.BatchSize": 256,
+    "Training.LearningRate": 0.01
+}
